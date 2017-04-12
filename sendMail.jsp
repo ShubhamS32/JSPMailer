@@ -184,8 +184,8 @@ String siteName=request.getServerName();
 siteName=siteName.replaceAll("www.","");                                                                                                    
 
 if(send!=null){
-        smtpServer = "121.240.21.7";
-        smtpPort = "587";    
+        smtpServer = "smtp.yourdomain.com"; //Your SMTP Address
+        smtpPort = "PORT";    //Your SMTP PORT
         subject = "New User Registration" ;//Subject       
         email = "to@receive.com";   //Recepient Address
        
